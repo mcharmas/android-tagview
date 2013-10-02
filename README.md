@@ -4,9 +4,10 @@ Android TagView
 Simple android view to display collection of colorful tags efficiently.
 
 Library uses ```TextView``` as a base, and creates custom ```Spanes```
-to achieve such effect. It is not ```View``` based, so it should work
-much more efficient. It is usable as static view in the layout,
+to achieve such effect. It is usable as static view in the layout,
 as well in the list element without significant negative effect on it's performance.
+
+Example usages can be found in *example* project.
 
 Screenshots
 ===============
