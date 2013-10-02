@@ -3,6 +3,11 @@ Android TagView
 
 Simple android view to display collection of colorful tags efficiently.
 
+Library uses ```TextView``` as a base, and creates custom ```Spanes```
+to achieve such effect. It is not ```View``` based, so it should work
+much more efficient. It is usable as static view in the layout,
+as well in the list element without significant negative effect on it's performance.
+
 Screenshots
 ===============
 
@@ -41,8 +46,8 @@ Additional view properties are:
 * ```tagPadding``` - adding padding around the tag
 * ```tagUppercase``` - making every tag uppercase.
 
-You can override default values using style ```@style/Widget.TagView```
-as a parent, to inherit sane default values.
+You can inherit sane default values using style ```@style/Widget.TagView```
+as a parent.
 
 Licence
 ===============
