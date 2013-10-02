@@ -1,5 +1,6 @@
 package pl.charmas.android.tagview.example;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -19,6 +20,10 @@ public class StaticFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         TagView tv = (TagView) getView().findViewById(R.id.tags_view);
-        tv.setTags(((MainActivity) getActivity()).createTagList(), " ");
+        TagView.Tag[] tags = {
+                new TagView.Tag("Sample tag", Color.parseColor("#0099CC")),
+                new TagView.Tag("Another one", Color.parseColor("#9933CC"))
+        };
+        tv.setTags(tags, " ");
     }
 }
