@@ -5,7 +5,7 @@
         <item name="tagPadding">8dp</item>
         <item name="tagUppercase">true</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:lineSpacingExtra">4sp</item>
         <item name="android:textStyle">bold</item>
     </style>
