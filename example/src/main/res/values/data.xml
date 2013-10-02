@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors">
+        <item>#0099CC</item>
+        <item>#9933CC</item>
+        <item>#669900</item>
+        <item>#FF8800</item>
+        <item>#CC0000</item>
+        <item>#34495e</item>
+        <item>#1abc9c</item>
+        <item>#c0392b</item>
+        <item>#7f8c8d</item>
+    </array>
+    <string-array name="tags">
+        <item>Lorem</item>
+        <item>ipsum</item>
+        <item>dolor</item>
+        <item>sit</item>
+        <item>amet,</item>
+        <item>consectetuer adipiscing</item>
+        <item>elit,</item>
+        <item>sed</item>
+        <item>diam</item>
+        <item>nonummy</item>
+        <item>nibh</item>
+        <item>euismod</item>
+        <item>tincidunt</item>
+        <item>ut laoreet</item>
+        <item>dolore</item>
+        <item>magna</item>
+        <item>aliquam</item>
+    </string-array>
+</resources>
