@@ -84,6 +84,8 @@ public class TagView extends TextView {
         if (tags.isEmpty()) {
             this.setVisibility(View.GONE);
             return;
+        } else {
+            this.setVisibility(View.VISIBLE);
         }
 
         final SpannableStringBuilder sb = new SpannableStringBuilder();
